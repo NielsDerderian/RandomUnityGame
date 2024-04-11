@@ -6,6 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/TutoShooter/Scene/MainMenu.unity
+    guid: f9168fdffd4bb5b448911727e7de25dd
+  - enabled: 1
+    path: Assets/TutoShooter/Scene/Main.unity
+    guid: 3b0316660a6f80c479bcf4d71ef5ea87
+  - enabled: 1
+    path: Assets/TutoShooter/Scene/GameOver.unity
+    guid: 1a28fe77233b67b49b293d5c74baf1d6
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
