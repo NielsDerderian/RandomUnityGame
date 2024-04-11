@@ -492,9 +492,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"ShotParticle","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.ParticleSystem,
-      UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ui_WeaponAmmo","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"TMPro.TextMeshProUGUI,
+      Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1833772474}
+    - {fileID: 1930349983}
 --- !u!4 &373650667
 Transform:
   m_ObjectHideFlags: 0
@@ -748,6 +750,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 1.756
+      objectReference: {fileID: 0}
+    - target: {fileID: 5936546102978646860, guid: f966d1b9603221541be33eb3ef0737d6,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9138197971454940930, guid: f966d1b9603221541be33eb3ef0737d6,
         type: 3}
@@ -1024,6 +1031,18 @@ ParticleSystem:
     type: 3}
   m_PrefabInstance: {fileID: 971197706}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1930349983 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2375628302062743691, guid: f966d1b9603221541be33eb3ef0737d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 971197706}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
